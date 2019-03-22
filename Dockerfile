@@ -10,11 +10,12 @@ ENV CMAKE_VER="3.13.4"
 RUN set -xe && \
     apt-get update && \
     apt-get install -y \
-    	    git sudo wget \
-	    qtbase5-dev \
-	    build-essential \
-	    gdebi \
-	    libopencv-dev
+            git sudo wget \
+            qtbase5-dev \
+            build-essential \
+            ffmpeg \
+            gdebi \
+            libopencv-dev
 
 # Build & Install CMake
 
